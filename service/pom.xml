@@ -5,7 +5,7 @@
         <groupId>gov.nsa.datawave.microservice</groupId>
         <artifactId>datawave-microservice-service-parent</artifactId>
         <version>1.7.1</version>
-        <relativePath />
+        <relativePath/>
     </parent>
     <artifactId>accumulo-service</artifactId>
     <version>1.2-SNAPSHOT</version>
@@ -18,7 +18,7 @@
     </scm>
     <properties>
         <start-class>datawave.microservice.accumulo.AccumuloService</start-class>
-        <version.curator>2.13.0</version.curator>
+        <version.curator>5.4.0</version.curator>
         <version.microservice.accumulo-api>1.1</version.microservice.accumulo-api>
         <version.microservice.starter-datawave>1.6.3</version.microservice.starter-datawave>
         <version.microservice.starter-datawave-audit>1.0</version.microservice.starter-datawave-audit>
